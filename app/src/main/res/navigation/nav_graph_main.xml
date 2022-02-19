@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main">
+    app:startDestination="@id/linearFragment">
+    <fragment
+        android:id="@+id/linearFragment"
+        android:name="com.itacademy.cataloghw.fragments.LinearFragment"
+        android:label="fragment_linear"
+        tools:layout="@layout/fragment_linear" >
+        <action
+            android:id="@+id/action_linearFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gridFragment"
+        android:name="com.itacademy.cataloghw.fragments.GridFragment"
+        android:label="fragment_grid"
+        tools:layout="@layout/fragment_grid" >
+        <action
+            android:id="@+id/action_gridFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.itacademy.cataloghw.fragments.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>

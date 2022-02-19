@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CatalogHw</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_title">Авторизация</string>
+    <string name="login_text">Логин</string>
+    <string name="password_text">Пароль</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="save_button">Сохранить</string>
+</resources>
